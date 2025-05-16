@@ -26,7 +26,6 @@ const DroneVideoFeed = () => {
     }
   };
 
-  // Stop webcam stream
   const stopWebcam = () => {
     if (webcamStream) {
       webcamStream.getTracks().forEach((track) => track.stop());
@@ -253,7 +252,7 @@ const DroneVideoFeed = () => {
                   <div className="text-gray-400 text-sm">Storage</div>
                   <div className="text-white text-xl font-semibold mt-1">
                     64.2 GB
-                  </div>
+                  </div> 
                 </div>
               </div>
             </div>
